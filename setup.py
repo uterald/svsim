@@ -9,7 +9,7 @@ setup(
     packages=["svsim"],
     package_data={"svsim":files},
     long_description = open( "README.md", "r" ).read( ),
-    url="http://www.example.com/",
+    url="http://ngenebio.com",
     maintainer="The svest team.",
     maintainer_email="mattias.franberg@scilifelab.se"
 )
