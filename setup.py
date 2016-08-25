@@ -1,10 +1,13 @@
 from distutils.core import setup
 
+files=["reads/*","data/*"]
+
 setup(
     name="svsim",
     version="0.1dev",
-    package_dir={ "svsim" : "svsim" },
     license="Modified BSD",
+    packages=["svsim"],
+    package_data={"svsim":files},
     long_description = open( "README.md", "r" ).read( ),
     url="http://www.example.com/",
     maintainer="The svest team.",
